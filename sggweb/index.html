@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" />
+        <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/ol/ol.css" type="text/css" />
+        <script type="text/javascript" src="js/ol/ol.js"></script>
+
+        <link rel="stylesheet" href="css/ol-ext/ol-ext.min.css" type="text/css" />
+        <script type="text/javascript" src="js/ol-ext/ol-ext.min.js"></script>
+
+        <script src="geojson/municipios.js"></script>
+        <script src="js/geoTools/geoMap.js"></script>
+        <script src="js/GeoTools/geoLayers.js"></script>
+        <script src="js/appMap.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+        <title>Ruta fresca</title>
+    </head>
+    <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="5%" height="5%" class="d-inline-block align-text-top" />
+                    Ruta fresca
+            </a>
+        </div>
+    </nav>
+
+    <!--Body-->
+    <div class="text-white">.</div>
+    <div class="text-white">.</div>
+
+    <p class="fs-1 fw-bold text-center">SIG de la ruta fresca</p>
+    <div class="container">
+        <div id="map" class="map"></div>
+        <div id="zona" class="zona"></div>
+    </div>
+
+    <div class="text-white">.</div>
+    <div class="text-white">.</div>    
+
+    <script type="text/javascript">
+        CargarMapa();
+        
+    </script>
+    <!--Footer-->
+        <footer class="row row-cols-5 py-5 border-top text-white bg-primary">
+            <div class="col">
+                <p class="fs-1 text-center">Grupo 5</p>
+            </div>
+      
+            <div class="col">
+      
+            </div>
+      
+            <div class="col">
+                <h5>Apellidos</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">Carbajal Guillén</li>
+                    <li class="nav-item mb-2">Henríquez Gómez</li>
+                    <li class="nav-item mb-2">Menjívar Sánchez</li>
+                    <li class="nav-item mb-2">Portillo Ramos</li>
+                    <li class="nav-item mb-2">Ventura Mira</li>
+                </ul>
+            </div>
+      
+            <div class="col">
+                <h5>Nombres</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">Katya Reneé</li>
+                    <li class="nav-item mb-2">Andres Oswaldo</li>
+                    <li class="nav-item mb-2">Wilbert Ulises</li>
+                    <li class="nav-item mb-2">Moisés Alexander</li>
+                    <li class="nav-item mb-2">Leonel Vladimir</li>
+                </ul>
+            </div>
+      
+            <div class="col">
+                <h5>Carnet</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">CG18064</li>
+                    <li class="nav-item mb-2">HG19010</li>
+                    <li class="nav-item mb-2">MS15053</li>
+                    <li class="nav-item mb-2">PR15033</li>
+                    <li class="nav-item mb-2">VM13068</li>
+                </ul>
+            </div>
+
+
+        </footer>
+      
+  </body>
+</html>
